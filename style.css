@@ -1,0 +1,109 @@
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0 px;
+  min-height: 10vh;
+  background: #1BB295;
+  
+}
+
+form {
+  padding: 2px;
+  background: #fff;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 10px 1px rgba(0, 0, 0, 0.05);
+  
+}
+
+form h2 {
+  font-size: 2px;
+  text-align: center;
+  margin: 0px 0 0px;
+  color:#FF7328;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+  
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+  
+  
+}
+
+form input,
+form select {
+  height: 20px;
+  padding: 1px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+  
+}
+
+form small {
+  font-size: 1px;
+  margin-top: 0px;
+display: block;
+  color: #f91919;
+  
+}
+
+.draf-btn {
+  margin-top: 30px;
+  
+}
+
+.draf-btn input {
+  color: white;
+  border: none;
+  height: auto;
+  font-size: 16px;
+  padding: 13px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  background: #FF7328;
+  transition: 0.2s ease;
+}
+
+.draf-btn input:hover {
+  background: #DB531D;
+  text-align: center;
+  
+}
+button {
+  padding: 19px 36px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
